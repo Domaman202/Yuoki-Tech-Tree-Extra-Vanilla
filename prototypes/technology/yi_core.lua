@@ -2633,7 +2633,7 @@ table.insert(tiers,
 		{
 			type = "technology",
 			name = "yi-recycle-atomics",
-			icon = "__Yuoki__/graphics/icons/atomics/crystal2uc.png",
+			icon = "__Yuoki__/graphics/icons/atomics/atomics-up-arrow.png",
 			icon_size = 64,
 			effects =
 			{
@@ -2935,4 +2935,5 @@ table.insert(tiers,
 
 for i,techs in pairs(tiers) do
 	data:extend(validateRecipes(techs))
+
 end
